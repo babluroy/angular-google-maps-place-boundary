@@ -1,6 +1,3 @@
 [build]
   command = "npm install --legacy-peer-deps && ng build"
   publish = "dist"
-
-[context.production]
-  environment = { NODE_VERSION = "14.x" }
