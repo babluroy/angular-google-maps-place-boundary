@@ -6,7 +6,6 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "heroku-prebuild": "npm install --legacy-peer-deps",
     "test": "ng test",
     "serve:ssr:map": "node dist/map/server/server.mjs"
   },
